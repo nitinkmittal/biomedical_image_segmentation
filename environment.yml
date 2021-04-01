@@ -1,0 +1,18 @@
+name: biomedical_image_segmentation
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - matplotlib
+  - nodejs
+  - numpy
+  - pandas
+  - pip
+  - python
+  - scikit-learn
+  - seaborn
+  - typing
+  - tqdm
+  - pip:
+      - pickle-mixin
+      - lxml
