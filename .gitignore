@@ -141,10 +141,7 @@ dmypy.json
 # End of https://www.toptal.com/developers/gitignore/api/python
 
 # folders to omit 
-data
-models
+*/dask-worker-space
 
-# files to omit
-tika-server-1.24.1.jar
-*.jpg
-.vscode
+# dask .out files
+*.out
