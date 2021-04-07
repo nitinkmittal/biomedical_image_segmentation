@@ -2,17 +2,25 @@ name: biomedical_image_segmentation
 channels:
   - conda-forge
 dependencies:
-  - ipykernel
-  - matplotlib
-  - nodejs
-  - numpy
-  - pandas
-  - pip
-  - python
-  - scikit-learn
-  - seaborn
-  - typing
-  - tqdm
+  - bokeh=2.3.0
+  - cudatoolkit=10.2.89
+  - dask-jobqueue=0.7.2
+  - ipykernel=5.5.3
+  - jupyterlab=3.0.12
+  - matplotlib=3.3.4
+  - nodejs=15.13.0
+  - numpy=1.19.2
+  - pandas=1.2.3
+  - pip=21.0.1
+  - python=3.9.2
+  - pytorch=1.8.1
+  - scikit-learn=0.24.1
+  - seaborn=0.11.1
+  - torchaudio=0.8.1
+  - torchvision=0.2.2
+  - typing=3.7.4.3
+  - tqdm=4.60.0
   - pip:
-      - pickle-mixin
-      - lxml
+      - pickle-mixin==1.0.2
+      - lxml==4.6.3
+      - jupyter-server-proxy
