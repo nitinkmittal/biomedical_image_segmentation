@@ -1,0 +1,262 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:39223'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:40438'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:44550'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:34116'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:37279'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:44638'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:41542'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:38290'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:32895'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.123:46485'
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:41655
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:38435
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:35092
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:41655
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:38435
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:35092
+distributed.worker - INFO -          dashboard at:        10.99.101.123:41323
+distributed.worker - INFO -          dashboard at:        10.99.101.123:33809
+distributed.worker - INFO -          dashboard at:        10.99.101.123:46207
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-y_v4ay3h
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-yrn268jj
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-jfioeqlf
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:33701
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:33701
+distributed.worker - INFO -          dashboard at:        10.99.101.123:37872
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:34495
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:34495
+distributed.worker - INFO -          dashboard at:        10.99.101.123:45111
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-87w1klrm
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-c4jiejfg
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:35844
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:35844
+distributed.worker - INFO -          dashboard at:        10.99.101.123:41349
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:34539
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:34539
+distributed.worker - INFO -          dashboard at:        10.99.101.123:46272
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-orhpwvmj
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-790q__ja
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:34008
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:34008
+distributed.worker - INFO -          dashboard at:        10.99.101.123:44460
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-nln9iyw4
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:36056
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:36056
+distributed.worker - INFO -          dashboard at:        10.99.101.123:37018
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-u54ml1mr
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.123:32896
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.123:32896
+distributed.worker - INFO -          dashboard at:        10.99.101.123:38057
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-h_i6yi72
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:45590
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2b6f300c34c0>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2b6f7f0a6b80>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2b3d087974c0>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2b5d0959a4c0>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2b7eda95d310>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2b0d34ce94c0>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2b6eb278b4c0>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2ab90901f4c0>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2b7fbb98d4c0>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x2b83b1ad94c0>
+Traceback (most recent call last):
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/worker.py", line 712, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/home/mittal.nit/.conda/envs/biomedical_image_segmentation/lib/python3.9/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:34539
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:34008
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:32896
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:35092
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:35844
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:33701
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:41655
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:38435
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:36056
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.123:34495
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:41542'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:32895'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:46485'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:44550'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:39223'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:38290'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:40438'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:44638'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:34116'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.99.101.123:37279'
+distributed.dask_worker - INFO - End worker

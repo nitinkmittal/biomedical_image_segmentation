@@ -1,0 +1,136 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:41579'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:38665'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:41839'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:36996'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:41849'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:44716'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:45393'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:39362'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:39588'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.99.101.147:42207'
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:33003
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:33003
+distributed.worker - INFO -          dashboard at:        10.99.101.147:40981
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:42320
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:42320
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:38231
+distributed.worker - INFO -          dashboard at:        10.99.101.147:44986
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:38231
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:46453
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -          dashboard at:        10.99.101.147:44028
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-61u6ayvq
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:46453
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -          dashboard at:        10.99.101.147:43846
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-hcbv1y9h
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:45923
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:42931
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:45923
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-2jgi1ach
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:32777
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:32777
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:40551
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        10.99.101.147:34426
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:40551
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:42931
+distributed.worker - INFO -          dashboard at:        10.99.101.147:45363
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-3ljiopms
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO -          dashboard at:        10.99.101.147:43869
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:44873
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        10.99.101.147:36867
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:44873
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -          dashboard at:        10.99.101.147:45314
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-bw1zmitg
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-luwhq25a
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.99.101.147:46462
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-94untunv
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -          Listening to:  tcp://10.99.101.147:46462
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-cgwg81oa
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -          dashboard at:        10.99.101.147:34851
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-i4x45cf1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          5
+distributed.worker - INFO -                Memory:                   9.31 GiB
+distributed.worker - INFO -       Local Directory: /home/mittal.nit/projects/biomedical_image_segmentation/notebooks/dask-worker-space/worker-1nptsaxw
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.99.101.17:35564
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+slurmstepd: error: *** JOB 18175748 ON d0147 CANCELLED AT 2021-04-07T15:02:18 ***
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.147:33003
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.147:40551
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.147:45923
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.147:32777
+distributed.worker - INFO - Stopping worker at tcp://10.99.101.147:46462
