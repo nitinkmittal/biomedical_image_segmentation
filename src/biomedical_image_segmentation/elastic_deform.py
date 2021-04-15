@@ -2,18 +2,21 @@ import numpy as np
 import cv2
 from scipy.ndimage.interpolation import map_coordinates
 from scipy.ndimage.filters import gaussian_filter
+from typing import Tuple
 
 
 def custom_2d_elastic_deform(
     img: np.ndarray,
-    label: np.ndarray,
-    alpha_affine: float,
-    sigma: float,
-    alpha: float,
+    mask: np.ndarray,
     ref_ratio: float = 3.0,
-) -> np.ndarray:
+    alpha_affine: Tuple[float, float] = (0.01, 0.2),
+    sigma: float = 10.0,
+    alpha: float = 1.0,
+    adjustment_pixel_range: Tuple[int, int] = None,
+    adjusted_pixel: int = None,
+) -> Tuple[np.ndarray, np.ndarray]:
     """
-    Perform elastic transformation on input image and its label.
+    Perform elastic transformation on input image and its mask.
 
     Note: Results of the function is non-reproducible.
 
@@ -26,7 +29,7 @@ def custom_2d_elastic_deform(
         H: height of image
         W: width of image
 
-    label: numpy array of shape (H, W)
+    mask: numpy array of shape (H, W)
         H: height of image
         W: width of image
 
@@ -49,13 +52,13 @@ def custom_2d_elastic_deform(
         H: height of image
         W: width of image
 
-    transformed label: numpy array of shape (H, W)
+    transformed mask: numpy array of shape (H, W)
         H: height of image
         W: width of image
     """
 
     assert img.ndim == 2
-    assert img.shape == label.shape
+    assert img.shape == mask.shape
 
     height, width = img.shape
     center_coords = np.float32([height, width]) // 2
@@ -71,7 +74,7 @@ def custom_2d_elastic_deform(
     )
 
     # get 3 points in affine transformed image space
-    alpha_affine = min([height, width]) * alpha_affine
+    alpha_affine = min([height, width]) * np.random.uniform(*alpha_affine)
     alpha_tranform = np.random.uniform(
         low=-alpha_affine, high=alpha_affine, size=pts_src.shape
     ).astype(np.float32)
@@ -88,8 +91,8 @@ def custom_2d_elastic_deform(
         src=img, M=M, dsize=(width, height), borderMode=cv2.BORDER_REFLECT_101
     )
 
-    label = cv2.warpAffine(
-        src=label,
+    mask = cv2.warpAffine(
+        src=mask,
         M=M,
         dsize=(width, height),
         borderMode=cv2.BORDER_REFLECT_101,
@@ -136,9 +139,9 @@ def custom_2d_elastic_deform(
         .T
     )
 
-    label = (
+    mask = (
         map_coordinates(
-            np.expand_dims(label, axis=2),
+            np.expand_dims(mask, axis=2),
             coordinates=coordinates,
             order=3,
             mode="reflect",
@@ -148,4 +151,12 @@ def custom_2d_elastic_deform(
         .T
     )
 
-    return img, label
+    if adjustment_pixel_range is not None and adjusted_pixel is not None:
+        conditions = [
+            mask <= 0 + adjustment_pixel_range[0],
+            mask >= 255 - adjustment_pixel_range[-1],
+        ]
+        choices = [0, 255]
+        mask = np.select(conditions, choices, adjusted_pixel)
+
+    return img, mask
