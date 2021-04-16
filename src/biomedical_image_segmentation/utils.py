@@ -1,6 +1,9 @@
+from copy import deepcopy
+from typing import Any, List, Tuple
+
 from cv2 import line
 from numpy import ndarray
-from copy import deepcopy
+import numpy as np
 
 
 def insert_grid(
@@ -36,3 +39,26 @@ def insert_grid(
         )
 
     return img
+
+
+def split(
+    a: List[Any],
+    ratio: Tuple[int, int, int] = (2 / 3, 1 / 6, 1 / 6),
+    replace: bool = False,
+):
+    """Split input into train, valid and test set."""
+    total = len(a)
+    train = np.random.choice(
+        a, replace=replace, size=int(total * ratio[0])
+    ).tolist()
+    valid = np.random.choice(
+        [b for b in a if b not in train],
+        replace=replace,
+        size=int(total * ratio[1]),
+    ).tolist()
+    test = np.random.choice(
+        [c for c in a if c not in train + valid],
+        replace=replace,
+        size=int(total * ratio[2]),
+    ).tolist()
+    return train, valid, test
