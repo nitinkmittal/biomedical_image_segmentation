@@ -142,6 +142,7 @@ dmypy.json
 
 # folders to omit 
 */dask-worker-space
+data
 
 # dask .out files
 *.out

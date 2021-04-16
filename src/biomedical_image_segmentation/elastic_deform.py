@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 from scipy.ndimage.interpolation import map_coordinates
 from scipy.ndimage.filters import gaussian_filter
-from typing import Tuple
+from typing import Tuple, Union, List
 
 
 def custom_2d_elastic_deform(
@@ -160,3 +160,5 @@ def custom_2d_elastic_deform(
         mask = np.select(conditions, choices, adjusted_pixel)
 
     return img, mask
+
+

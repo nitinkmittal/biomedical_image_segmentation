@@ -8,7 +8,7 @@ def insert_grid(
     box_height: int,
     box_width: int,
     color: float = 1.0,
-    thickness: int = 1.0,
+    thickness: int = 1,
 ) -> ndarray:
     """Insert grid on image."""
     assert img.ndim == 2
