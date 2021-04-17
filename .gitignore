@@ -143,6 +143,12 @@ dmypy.json
 # folders to omit 
 */dask-worker-space
 augmented
+model-weights
 
 # dask .out files
 *.out
+tmp*
+
+# data types
+*.pickle
+

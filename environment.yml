@@ -21,8 +21,6 @@ dependencies:
 #   - pytorch=1.8.1
   - scikit-learn=0.24.1
   - seaborn=0.11.1
-#   - torchaudio=0.8.1
-#   - torchvision=0.2.2
   - typing=3.7.4.3
   - tqdm=4.60.0
   - pip:
@@ -30,3 +28,4 @@ dependencies:
       - lxml==4.6.3
       - jupyter-server-proxy
       - opencv-python
+#       - torchvision==0.9.1
