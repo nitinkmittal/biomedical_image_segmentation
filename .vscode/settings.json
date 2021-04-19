@@ -1,0 +1,16 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Anaconda\\envs\\biomedical_image_segmentation\\python.exe",
+    "python.formatting.autopep8Args": [
+        "black"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79"
+    ],
+    "editor.formatOnSave": true,
+    "python.linting.pycodestyleEnabled": true
+}
