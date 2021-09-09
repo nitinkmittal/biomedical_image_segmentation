@@ -27,3 +27,7 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+
+
+
+![alt text](https://github.com/nitinkmittal/biomedical_image_segmentation/blob/master/images/Image%20and%20Predicted%20Mask.png)
