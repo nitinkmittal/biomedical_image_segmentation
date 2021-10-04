@@ -1,10 +1,11 @@
+from typing import List, Union
+
 import numpy as np
-from torch import nn
-import torch.nn.functional as F
 import torch
+import torch.nn.functional as F
 from matplotlib import pyplot as plt
+from torch import nn
 from torchvision.transforms import CenterCrop
-from typing import Union, List
 
 
 def conv2d_block(in_channels: int, out_channels: int):

@@ -23,5 +23,3 @@ def validate(
         assert len(np.unique([img for img, _ in dataset], axis=0)) == len(
             dataset
         )
-
-

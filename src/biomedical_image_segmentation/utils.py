@@ -1,11 +1,11 @@
+import os
+from pickle import load
 from typing import Any, List, Tuple
 
-
-from numpy import ndarray
 import numpy as np
-from pickle import load
-import os
 import torch
+from numpy import ndarray
+
 
 def split(
     a: List[Any],
@@ -14,7 +14,7 @@ def split(
     seed: int = 40,
 ):
     """Split input into train, valid and test set."""
-    
+
     random = np.random.RandomState(seed)
     total = len(a)
     train = random.choice(
@@ -32,6 +32,7 @@ def split(
     ).tolist()
     return train, valid, test
 
+
 def load_pickle(filename: str) -> Any:
     """Load and return pickle."""
     with open(filename, "rb") as f:
@@ -39,20 +40,22 @@ def load_pickle(filename: str) -> Any:
     return data
 
 
-def create_dir(path: str, verbose: bool=False):
+def create_dir(path: str, verbose: bool = False):
     """Create folder if does not exists."""
     if not os.path.exists(path):
-        try: 
-            os.mkdir(path) 
-        except OSError as error: 
-            if verbose: print(error)
-                
-def empty_dir(path: str, verbose: bool=False):
+        try:
+            os.mkdir(path)
+        except OSError as error:
+            if verbose:
+                print(error)
+
+
+def empty_dir(path: str, verbose: bool = False):
     """Delete content of a directory recursively."""
     assert os.path.exists(path)
     for f in os.listdir(path):
         try:
             os.remove(os.path.join(path, f))
         except Exception as error:
-            if verbose: print(error)
-                
+            if verbose:
+                print(error)
