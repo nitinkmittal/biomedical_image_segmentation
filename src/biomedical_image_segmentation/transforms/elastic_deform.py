@@ -93,38 +93,6 @@ def generate_coordinates(
     return coordinates
 
 
-def generate_affine_matrix(
-    img: np.ndarray,
-    rng: Generator,
-    alpha: float,
-) -> np.ndarray:
-    """Return affine transformation matrix."""
-
-    height, width, _ = img.shape
-
-    # Affine tranformation require affine/warp transformation matrix
-    #   To compute affine transformation matrix,
-    #   we require 3 points in original image and 3 points in transformed image.
-    #   We use center coordinates to compute reference points in original image space.
-    center_coord = np.float32([height, width]) // 2
-    ref_point = min((height, width)) // 2
-    pts_src = np.float32(
-        [
-            center_coord - ref_point,
-            center_coord + np.array([1.0, -1.0]) * ref_point,
-            center_coord + ref_point,
-        ]
-    )
-    pts_dst = pts_src + rng.uniform(-alpha, alpha, size=pts_src.shape).astype(
-        pts_src.dtype
-    )
-
-    # get affine transformation matrix to transform (x,y) points
-    # from original image space to affine transformed image space
-    # https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_geometric_transformations/py_geometric_transformations.html
-    return cv2.getAffineTransform(pts_src, pts_dst)
-
-
 class AffineTransform(object):
     def __init__(
         self,
@@ -154,6 +122,38 @@ class AffineTransform(object):
         self.seed = seed
         self.rng = np.random.default_rng(self.seed)
 
+    def _get_affine_matrix(
+        self,
+        img: np.ndarray,
+        rng: Generator,
+        alpha: float,
+    ) -> np.ndarray:
+        """Return affine transformation matrix."""
+
+        height, width, _ = img.shape
+
+        # Affine tranformation require affine/warp transformation matrix
+        #   To compute affine transformation matrix,
+        #   we require 3 points in original image and 3 points in transformed image.
+        #   We use center coordinates to compute reference points in original image space.
+        center_coord = np.float32([height, width]) // 2
+        ref_point = min((height, width)) // 2
+        pts_src = np.float32(
+            [
+                center_coord - ref_point,
+                center_coord + np.array([1.0, -1.0]) * ref_point,
+                center_coord + ref_point,
+            ]
+        )
+        pts_dst = pts_src + rng.uniform(
+            -alpha, alpha, size=pts_src.shape
+        ).astype(pts_src.dtype)
+
+        # get affine transformation matrix to transform (x,y) points
+        # from original image space to affine transformed image space
+        # https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_geometric_transformations/py_geometric_transformations.html
+        return cv2.getAffineTransform(pts_src, pts_dst)
+
     def transform(self, img):
         """
         Args:
@@ -181,7 +181,7 @@ class AffineTransform(object):
         )
 
         if self.M is None:
-            self.M = generate_affine_matrix(
+            self.M = self._get_affine_matrix(
                 img, rng=self.rng, alpha=self.alpha
             )
 

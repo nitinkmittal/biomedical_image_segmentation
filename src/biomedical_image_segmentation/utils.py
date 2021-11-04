@@ -59,3 +59,27 @@ def empty_dir(path: str, verbose: bool = False):
         except Exception as error:
             if verbose:
                 print(error)
+
+
+from torch import Tensor
+from typing import List
+from torchvision.utils import make_grid
+from torchvision.transforms import ToPILImage, ToTensor
+
+
+def plot_images(imgs: List[Tensor]):
+    """Generate PIL image for given list of tensors."""
+    return ToPILImage()(
+        make_grid([ToTensor()(img) for img in imgs], pad_value=1, padding=10)
+    )
+
+
+from typing import Callable
+
+
+def copy_docstring(original: Callable) -> Callable:
+    def wrapper(target: Callable):
+        target.__doc__ = original.__doc__
+        return target
+
+    return wrapper
