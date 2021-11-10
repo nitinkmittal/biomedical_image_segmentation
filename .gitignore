@@ -145,6 +145,7 @@ dmypy.json
 augmented
 model-weights
 .vscode
+tests
 
 # dask .out files
 *.out
